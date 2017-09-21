@@ -1,6 +1,4 @@
-# Bisect
-
-Find introductions of bugs
+# Roteiro Bisect
 
 git bisect start
 git bisect good 7d2f

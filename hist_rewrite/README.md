@@ -1,4 +1,11 @@
-# Roteiro Hist rewrite
+# Roteiro Hist hacking
+
+## stash
+
+To upper 100.md
+git stash
+git stash apply
+
 
 ## Amend
 

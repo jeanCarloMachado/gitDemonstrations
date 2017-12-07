@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 content=$(cat /dev/stdin)
-[[ "$content" == "2048" ]] && {
+[[ "$content" == "2036" ]] && {
     echo "not bisext"
     exit 1
 }

@@ -1,22 +1,11 @@
 # Roteiro Hist hacking
 
 git checkout -b experiments
-
-## Stash
-
-
-```sh
-#Do things, temporarily undo, and go back
-#To upper 100.md
-git stash
-git stash apply
 cat 100.md
-git checkout 100.md
-```
 
-## Amend
-
+## Amend & Parcial add
 ```sh
+cat ../ammend_partially.patch
 git apply ../ammend_partially.patch
 git add -p 100.md
 git commit --amend
@@ -34,7 +23,7 @@ git checkout -b experiments
 #tirar o arquivo errado do 85.5
 ```
 
-## Remoto
+## Remoto (do only if internet works)
 
 ```sh
 ssh blog

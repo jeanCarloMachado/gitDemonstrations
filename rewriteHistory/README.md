@@ -1,5 +1,7 @@
 # Roteiro Hist hacking
 
+top commit: 5bd8ab69307829cf0cfb8839311d8cb0a877f981
+
 git checkout -b experiments
 cat 100.md
 
@@ -16,11 +18,10 @@ git commit --amend
 ```sh
 git checkout -b experiments
 #deletar commits 99..89
+git reflog
 #voltar ao estado anterior
-#voltar ao drop dos commits pelo reflog
 #juntar 2 commits
-#criar um commit 85.5 comitando algo errado junto
-#tirar o arquivo errado do 85.5
+#criar um commit 85.5
 ```
 
 ## Remoto (do only if internet works)
@@ -38,8 +39,8 @@ git remote add origin root@45.55.247.185:/tmp/hist_rewrite
 cd ..
 git clone root@45.55.247.185:/tmp/hist_rewrite repo2
 git checkout experiment
-#deletar quase todos os commits
-#reword no último (vai criar um merge no pull)
+# deletar todos os commits
+# criar um novo
 #push force
 
 cd ../repo

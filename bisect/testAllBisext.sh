@@ -7,5 +7,8 @@ IFS='
 
 for i in $data
 do
-    (echo "$i" | ./isBisext.sh) || exit 1
+    [[ "$i" == "2036" ]] && {
+        echo "not bisext"
+        exit 1
+    }
 done

@@ -16,7 +16,6 @@ git commit --amend
 ## Rebase -i
 
 ```sh
-git checkout -b experiments
 #deletar commits 99..89
 git reflog
 #voltar ao estado anterior
